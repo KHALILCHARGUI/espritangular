@@ -28,7 +28,7 @@ export class ArticlesComponent implements OnInit {
       {titre:'Comment écrire votre CV',contenu:'Pour réussir à décraucher un emploi...',auteur:'Marie Elsa',date:'02/04/2017',categorie:'Travail'}
     ]
     this.calc();
-
+      this.i=this.Articles.length
 
   }
 
